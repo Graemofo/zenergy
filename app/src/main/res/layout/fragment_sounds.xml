@@ -17,12 +17,20 @@
             tools:layout_editor_absoluteY="376dp">
 
             <ImageButton
+                android:id="@+id/beachBtn"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/beach_sounds"
+                android:contentDescription="Button for beach sounds" />
 
             <ImageButton
+                android:id="@+id/forestBtn"
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:src="@drawable/forest" />
 
             <ImageButton
                 android:layout_width="match_parent"
