@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:gravity="center_vertical"
+        android:icon="@drawable/music"
+        android:title="Sounds" />
+    <item
+        android:id="@+id/nav_guided"
+        android:gravity="center_vertical"
+        android:icon="@drawable/meditation"
+        android:title="Guided" />
+    <item
+        android:id="@+id/nav_breathing"
+        android:gravity="center_vertical"
+        android:icon="@drawable/breathing"
+        android:title="Breathing" />
+</menu>
