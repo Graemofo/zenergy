@@ -23,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
                 new SoundFragment()).commit();
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SoundFragment.stopSounds();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        SoundFragment.stopSounds();
+    }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {

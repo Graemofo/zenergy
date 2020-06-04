@@ -16,53 +16,232 @@
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="376dp">
 
-            <ImageButton
-                android:id="@+id/beachBtn"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:background="@android:color/white"
-                android:scaleType="centerCrop"
-                android:src="@drawable/beach_sounds"
-                android:contentDescription="Button for beach sounds" />
+                android:layout_height="100dp">
 
-            <ImageButton
-                android:id="@+id/forestBtn"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:background="@android:color/white"
-                android:src="@drawable/forest" />
+                <ImageButton
+                    android:id="@+id/forestBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/forest" />
 
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Forest"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
 
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
+            </FrameLayout>
 
-            <ImageButton
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="100dp">
 
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                <ImageButton
+                    android:id="@+id/beachBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"
+                    android:contentDescription="Button for beach sounds"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beach_sounds" />
 
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Beach"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
 
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
 
-            <ImageButton
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="100dp">
 
-            <ImageButton
+                <ImageButton
+                    android:id="@+id/pianoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/piano" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Piano"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/stream" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="River"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/city" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="City Nights"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/space" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="White Noise"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/meadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Summer Meadow"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/storm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Storm"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campfire" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Campfire"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/winter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Winter"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/binary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:padding="5dp"
+                    android:text="Binaural Beats"
+                    android:textColor="@android:color/white"
+                    android:textSize="32sp" />
+
+            </FrameLayout>
 
 
         </LinearLayout>
